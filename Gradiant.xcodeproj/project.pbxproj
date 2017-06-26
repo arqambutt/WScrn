@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E8F77D41EFC3AA300E06500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F77D31EFC3AA300E06500 /* AppDelegate.swift */; };
+		2E8F77D61EFC3AA400E06500 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F77D51EFC3AA400E06500 /* ViewController.swift */; };
+		2E8F77D91EFC3AA400E06500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8F77D71EFC3AA400E06500 /* Main.storyboard */; };
+		2E8F77DB1EFC3AA400E06500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8F77DA1EFC3AA400E06500 /* Assets.xcassets */; };
+		2E8F77DE1EFC3AA400E06500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8F77DC1EFC3AA400E06500 /* LaunchScreen.storyboard */; };
+		2EC04A461EFE747C00A5C490 /* ContactDriver.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EC04A451EFE747C00A5C490 /* ContactDriver.xib */; };
+		2EC04A481EFE781500A5C490 /* contactDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC04A471EFE781500A5C490 /* contactDriver.swift */; };
+		8C7C4A2849C1F9A60832A866 /* Pods_Gradiant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F0F90BFB748FCB1548007E /* Pods_Gradiant.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E8F77D01EFC3AA300E06500 /* Gradiant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradiant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8F77D31EFC3AA300E06500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E8F77D51EFC3AA400E06500 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E8F77D81EFC3AA400E06500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E8F77DA1EFC3AA400E06500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E8F77DD1EFC3AA400E06500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E8F77DF1EFC3AA400E06500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EC04A451EFE747C00A5C490 /* ContactDriver.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactDriver.xib; sourceTree = "<group>"; };
+		2EC04A471EFE781500A5C490 /* contactDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contactDriver.swift; sourceTree = "<group>"; };
+		584AD8A3D5763238C93B8ED8 /* Pods-Gradiant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gradiant.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gradiant/Pods-Gradiant.release.xcconfig"; sourceTree = "<group>"; };
+		99F0F90BFB748FCB1548007E /* Pods_Gradiant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gradiant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF258FC9D8AB7F98D5D3668C /* Pods-Gradiant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gradiant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gradiant/Pods-Gradiant.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E8F77CD1EFC3AA300E06500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7C4A2849C1F9A60832A866 /* Pods_Gradiant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E8F77C71EFC3AA300E06500 = {
+			isa = PBXGroup;
+			children = (
+				2E8F77D21EFC3AA300E06500 /* Gradiant */,
+				2E8F77D11EFC3AA300E06500 /* Products */,
+				C5E90B07D7B224FBF801FCA8 /* Pods */,
+				578B024E9A90944C1F7C6FC7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E8F77D11EFC3AA300E06500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E8F77D01EFC3AA300E06500 /* Gradiant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E8F77D21EFC3AA300E06500 /* Gradiant */ = {
+			isa = PBXGroup;
+			children = (
+				2E8F77D31EFC3AA300E06500 /* AppDelegate.swift */,
+				2E8F77D51EFC3AA400E06500 /* ViewController.swift */,
+				2E8F77D71EFC3AA400E06500 /* Main.storyboard */,
+				2E8F77DA1EFC3AA400E06500 /* Assets.xcassets */,
+				2E8F77DC1EFC3AA400E06500 /* LaunchScreen.storyboard */,
+				2E8F77DF1EFC3AA400E06500 /* Info.plist */,
+				2EC04A451EFE747C00A5C490 /* ContactDriver.xib */,
+				2EC04A471EFE781500A5C490 /* contactDriver.swift */,
+			);
+			path = Gradiant;
+			sourceTree = "<group>";
+		};
+		578B024E9A90944C1F7C6FC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99F0F90BFB748FCB1548007E /* Pods_Gradiant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5E90B07D7B224FBF801FCA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF258FC9D8AB7F98D5D3668C /* Pods-Gradiant.debug.xcconfig */,
+				584AD8A3D5763238C93B8ED8 /* Pods-Gradiant.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E8F77CF1EFC3AA300E06500 /* Gradiant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E8F77E21EFC3AA400E06500 /* Build configuration list for PBXNativeTarget "Gradiant" */;
+			buildPhases = (
+				C25289A9CC39AEC15B47F544 /* [CP] Check Pods Manifest.lock */,
+				2E8F77CC1EFC3AA300E06500 /* Sources */,
+				2E8F77CD1EFC3AA300E06500 /* Frameworks */,
+				2E8F77CE1EFC3AA300E06500 /* Resources */,
+				4DB9E078BF0C075463B3D009 /* [CP] Embed Pods Frameworks */,
+				8555EC6C0CC03E09B4A13E8F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gradiant;
+			productName = Gradiant;
+			productReference = 2E8F77D01EFC3AA300E06500 /* Gradiant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E8F77C81EFC3AA300E06500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Arqam Butt";
+				TargetAttributes = {
+					2E8F77CF1EFC3AA300E06500 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2E8F77CB1EFC3AA300E06500 /* Build configuration list for PBXProject "Gradiant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E8F77C71EFC3AA300E06500;
+			productRefGroup = 2E8F77D11EFC3AA300E06500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E8F77CF1EFC3AA300E06500 /* Gradiant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E8F77CE1EFC3AA300E06500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8F77DE1EFC3AA400E06500 /* LaunchScreen.storyboard in Resources */,
+				2E8F77DB1EFC3AA400E06500 /* Assets.xcassets in Resources */,
+				2EC04A461EFE747C00A5C490 /* ContactDriver.xib in Resources */,
+				2E8F77D91EFC3AA400E06500 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DB9E078BF0C075463B3D009 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gradiant/Pods-Gradiant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8555EC6C0CC03E09B4A13E8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gradiant/Pods-Gradiant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C25289A9CC39AEC15B47F544 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E8F77CC1EFC3AA300E06500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8F77D61EFC3AA400E06500 /* ViewController.swift in Sources */,
+				2EC04A481EFE781500A5C490 /* contactDriver.swift in Sources */,
+				2E8F77D41EFC3AA300E06500 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E8F77D71EFC3AA400E06500 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E8F77D81EFC3AA400E06500 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E8F77DC1EFC3AA400E06500 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E8F77DD1EFC3AA400E06500 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E8F77E01EFC3AA400E06500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E8F77E11EFC3AA400E06500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E8F77E31EFC3AA400E06500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF258FC9D8AB7F98D5D3668C /* Pods-Gradiant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gradiant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arqambutt.Gradiant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2E8F77E41EFC3AA400E06500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 584AD8A3D5763238C93B8ED8 /* Pods-Gradiant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gradiant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arqambutt.Gradiant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E8F77CB1EFC3AA300E06500 /* Build configuration list for PBXProject "Gradiant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8F77E01EFC3AA400E06500 /* Debug */,
+				2E8F77E11EFC3AA400E06500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E8F77E21EFC3AA400E06500 /* Build configuration list for PBXNativeTarget "Gradiant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8F77E31EFC3AA400E06500 /* Debug */,
+				2E8F77E41EFC3AA400E06500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E8F77C81EFC3AA300E06500 /* Project object */;
+}
